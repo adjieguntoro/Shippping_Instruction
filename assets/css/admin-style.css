@@ -1,0 +1,330 @@
+body {
+
+	font-family: arial;
+
+}
+a {
+	color:#666;
+}
+
+#header{
+	padding-left: auto;
+	padding-right: auto;
+	margin-top: 0px;
+	background: #fff;
+
+
+}
+
+.wrapper {
+
+	margin: 0 auto;
+    padding: 0;
+    width: 960px;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+     border-bottom	: 1px solid #E6E6E6;
+    overflow: hidden;
+    /*background: url(../images/head-bg.png);
+	background-position: right;*/ 
+    
+}
+
+#main-wrapper{
+	height:auto;
+
+
+}
+
+.fnt-12{
+	font-size: 12px;
+}
+
+#logo {
+	padding-left: 35px;
+	float: left;
+}
+
+#header .title-shipping {
+    float: right;
+    width: 312px;
+    height: 86px;
+    font-size: 25px;
+    margin-right: 45px;
+    margin-top: 35px;
+    text-align: right;
+}
+
+#header .title-shipping h4{
+  margin-bottom: 5px;
+  
+}
+
+.title-login {
+	background: #012233;
+	margin-left: 2px;
+	width: 350px;
+
+}
+
+.title-login h4{
+	padding: 10px;
+	font-size: 24px;
+	color: white;
+	margin:5px auto 0px 3px;
+	text-align: center;
+
+}
+
+.title-shipping #main-date {
+    color: #4D4D4D;
+    text-align: right;
+    font-size: 12px;
+}
+.left-wraper {
+	width: auto;
+	height: 300px;
+	padding: 10px;
+	margin-left: 10px;
+	float: left;
+	padding-left: 80px;
+}
+
+.left-wraper .menu-wrap {
+	width: 150px;
+	background: #666;
+}
+
+.menu-wrap{
+	
+	width: 200px;
+	margin-top: 0px;
+	border-right: 1px solid #E6E6E6;
+	float: left;
+}
+
+.menu-wrap ul {
+	list-style: none;
+	display: block;
+}
+
+.menu-wrap ul span{
+	list-style: none;
+	width: 130px;
+	display: block;
+	padding: 10px 0 15px 15px;
+	margin-bottom: 3px;
+	font-size: 15px;
+	background: #888;
+	font-weight: bold;
+	color: #fff;
+}
+
+.menu-wrap ul a {
+	text-decoration: none;
+	color: #fff;
+	display:  block;
+	padding: 13px;
+	width: 130px;
+}
+
+.menu-wrap li:hover {
+	text-decoration: none;
+	color: #ddd;
+	display:  block;
+	background: #777;
+	font-weight: bold;
+
+	
+}
+
+.menu-wrap li {
+	display: block;
+	width: 145px;
+	background: #666;
+	
+}
+
+.admin-login-wrapper {
+	margin-left: 30%;
+	width: 300px;
+	height: auto;
+	float: left;
+}
+
+
+
+/*.panel-wrapper table{
+	font-size: 12px;
+	  
+	border: 0px;
+}
+
+.panel-wrapper table, td, th{
+	padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.panel-wrapper table tr:hover {
+	background-color: #f5f5f5;
+
+}*/
+
+.panel-wrapper th {
+    background-color: #012233;
+    color: white;
+}
+
+.account-panel {
+	line-height: 2em;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+.pending {
+	color: #b7b7b7;
+}
+
+.reject {
+	color: #de6a6a;
+}
+.title-panel{
+	border-bottom: 2px solid #626262;
+	margin-bottom: 1px;
+}
+.title-panel h4{
+	font-size: 15px;
+	margin: 10px 0px 5px 0px;
+	color: #626262;
+}
+
+.new-request-form table {
+	font-size: 13px;
+	font-weight: bold;
+	
+	color: #454545;
+	text-transform: uppercase;
+	
+}
+
+.new-request-form span {
+	font-size: 11px;
+ 	text-decoration: none;
+	color: #6c6a6a;
+	text-transform: capitalize;
+	line-height: 1.2em;
+}
+
+fieldset {
+    border: 1px solid #E6E6E6;
+    width: 3%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.logon {
+
+	height: auto;
+}
+
+.logon-area {
+
+
+	
+	margin-top: 5px;
+}
+
+.logon-title {
+
+	height: 35px;
+	border-bottom: solid 2px;
+}
+
+.logon-title h2{
+	width: 230px;
+	height: 35px;
+	border-bottom: solid 3px;
+}
+
+.form-area {
+
+	
+	width: 100%;
+	height:300px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+}
+
+
+.area {
+
+	width: 300px;
+	height: 250px;
+	margin: 10px;
+	margin-left: 20px
+
+
+}
+
+.clearfix {
+
+	padding-bottom: 5px;
+}
+
+.area input {
+
+	
+	padding:5px;
+	width:90%;
+	border:1px solid #888;
+	color:#666;
+	font-size:13px;
+	font-family:maven pro, sans-serif;
+	border:#999 1px solid;
+	resize: none;
+}
+
+
+.area  .submit {
+
+	color:#fff;
+	background: #012233;
+	cursor: hand;
+	
+}
+
+
+
+.login {
+
+	float: left;
+	margin-right: 50px;
+}
+
+.signup {
+
+	float: left;
+	margin-top: 0px;
+}
+
+footer {
+    width: 960px;
+    margin: auto;
+    margin-top: 8px;
+     border-bottom	: 1px solid #E6E6E6;
+}
+
+footer .footer{
+
+	padding: 20px 0;
+    margin: 0 auto;
+    width: 960px;
+    text-align: center;
+    font-size: 13px;
+    color: #4D4D4D;
+    line-height: 14px;
+}
+
