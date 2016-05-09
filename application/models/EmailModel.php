@@ -14,7 +14,7 @@ function __construct(){
      'protocol' => 'smtp',
      'smtp_host' => 'ssl://cl46051x.maintenis.com',
      'smtp_port' => 465,
-     'smtp_user' => 'no-reply@shippapp.com', // change it to yours
+     'smtp_user' => 'no-reply@si.mytangsel.com', // change it to yours
      'smtp_pass' => '2k+Ow8boK}Wd', // change it to yours
      'mailtype' => 'html',
      'charset' => 'iso-8859-1',
@@ -26,7 +26,7 @@ function __construct(){
   $pesan=$this->load->view('user_view/email',$data,TRUE);
   $this->email->initialize($config);
   $this->email->set_newline("\r\n");
-  $this->email->from('no-reply@si.mytangsel.com', "Shipping Instruction Admin");
+  $this->email->from('no-reply@shippapp.com', "Shipping Instruction Admin");
   $this->email->to($email);  
   $this->email->subject("Email Verification");
   $this->email->message($pesan);
