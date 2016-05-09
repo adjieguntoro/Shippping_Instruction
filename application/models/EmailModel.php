@@ -26,7 +26,7 @@ function __construct(){
   $pesan=$this->load->view('user_view/email',$data,TRUE);
   $this->email->initialize($config);
   $this->email->set_newline("\r\n");
-  $this->email->from('no-reply@shippapp.com', "Shipping Instruction Admin");
+  $this->email->from('no-reply@si.mytangsel.com', "Shipping Instruction Admin");
   $this->email->to($email);  
   $this->email->subject("Email Verification");
   $this->email->message($pesan);
