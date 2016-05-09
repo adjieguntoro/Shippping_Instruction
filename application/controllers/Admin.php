@@ -6,13 +6,8 @@ class Admin extends CI_Controller {
 
 	public function login(){
 		$this->load->model('Model_backend');
-		$data['title']='Admin Dashboard - Shipping Instruction';
-		$data['row_user']=$this->Model_backend->getTotalRowAllUser();
-		$data['row_req']=$this->Model_backend->getTotalRowRequest();
-		$data['data_users']=$this->Model_backend->view_all_users();
 		$this->load->view('Backend/login',$data);
-		// $this->load->view('Backend/dashboard',$data);
-	}
+		}
 
 	function act_login(){
 		$username=$this->input->post('username');
