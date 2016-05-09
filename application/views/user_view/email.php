@@ -200,7 +200,7 @@ ol li {
             <table class="btn-primary" cellpadding="0" cellspacing="0" border="0">
               <tr>
                 <td>
-                  <a href="<?php echo base_url();echo "verify"; echo $very_code;?>">Click Here for Activation</a>
+                  <a href="<?php echo base_url();echo "verify/"; echo $very_code;?>">Click Here for Activation</a>
                 </td>
               </tr>
             </table>
