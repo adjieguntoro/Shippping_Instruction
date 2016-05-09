@@ -11,7 +11,7 @@
 
 							<p>Your account has been created successfuly.</p><br>
 							<p>Please, check your email and follow link to activation your account.<br>
-							<a class="btn btn-default" href="<?php echo base_url('Site');?>">Login Now</a>
+							<a class="btn btn-default" href="<?php echo base_url('');?>">Login Now</a>
 							 <br/>
 						</div>
 
