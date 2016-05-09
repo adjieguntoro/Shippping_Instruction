@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'k7789276_siuser',
-	'password' => 'mult1m3d14',
-	'database' => 'k7789276_shipping',
+	'hostname' => 'ap-cdbr-azure-east-c.cloudapp.net',
+	'username' => 'bedbfc9d5e42f3',
+	'password' => 'f289da35',
+	'database' => 'shipping_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'sh1p_',
 	'pconnect' => FALSE,
