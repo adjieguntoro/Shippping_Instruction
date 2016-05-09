@@ -14,7 +14,7 @@ function __construct(){
      'protocol' => 'smtp',
      'smtp_host' => 'ssl://cl46051x.maintenis.com',
      'smtp_port' => 465,
-     'smtp_user' => 'no-reply@si.mytangsel.com', // change it to yours
+     'smtp_user' => 'no-reply@shippapp.com', // change it to yours
      'smtp_pass' => '2k+Ow8boK}Wd', // change it to yours
      'mailtype' => 'html',
      'charset' => 'iso-8859-1',
