@@ -11,7 +11,7 @@
 
 							<p>Your account has been actived successfuly.</p>
 							<p>Please Login for start your Shipping Request.<br>
-							<a class="btn btn-default" href="<?php echo base_url('Login/logout');?>">Login Now</a>
+							<a class="btn btn-default" href="<?php echo base_url();?>">Login Now</a>
 							 <br/>
 						</div>
 
