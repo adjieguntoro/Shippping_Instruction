@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Email Confirmation</title>
-<style type="text/css">
+<html style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+<head style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+<meta name="viewport" content="width=device-width" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+<title style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">Email Confirmation</title>
+<style type="text/css" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
 /* -------------------------------------
     GLOBAL
 ------------------------------------- */
@@ -177,36 +177,36 @@ ol li {
 </style>
 </head>
 
-<body bgcolor="#f6f6f6">
+<body bgcolor="#f6f6f6" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;-webkit-font-smoothing: antialiased;height: 100%;-webkit-text-size-adjust: none;width: 100% !important;">
 
 <!-- body -->
-<table class="body-wrap" bgcolor="#f6f6f6">
-  <tr>
-    <td></td>
-    <td class="container" bgcolor="#FFFFFF">
+<table class="body-wrap" bgcolor="#f6f6f6" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 20px;width: 100%;">
+  <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+    <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;"></td>
+    <td class="container" bgcolor="#FFFFFF" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0 auto !important;padding: 20px;border: 1px solid #f0f0f0;clear: both !important;display: block !important;max-width: 600px !important;">
 
       <!-- content -->
-      <div class="content">
-      <table>
-        <tr>
-          <td>
-            <p>Dear User,</p>
-            <p>Please click on below URL or paste into your browser to verify your Email Address</p>
+      <div class="content" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0 auto;padding: 0;display: block;max-width: 600px;">
+      <table style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;width: 100%;">
+        <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+          <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+            <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;font-weight: normal;margin-bottom: 10px;">Dear User,</p>
+            <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;font-weight: normal;margin-bottom: 10px;">Please click on below URL or paste into your browser to verify your Email Address</p>
 
 
              <!-- .base_url(). "verify/" .$verificationText. -->
 
             <!-- button -->
-            <table class="btn-primary" cellpadding="0" cellspacing="0" border="0">
-              <tr>
-                <td>
-                  <a href="<?php echo base_url();echo "verify/"; echo $very_code;?>">Click Here for Activation</a>
+            <table class="btn-primary" cellpadding="0" cellspacing="0" border="0" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;margin-bottom: 10px;width: auto !important;">
+              <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
+                <td style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;background-color: #348eda;border-radius: 25px;text-align: center;vertical-align: top;">
+                  <a href="&lt;?php echo base_url();echo " verify style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 2;margin: 0;padding: 0;color: #ffffff;background-color: #348eda;border: solid 1px #348eda;border-radius: 25px;border-width: 10px 20px;display: inline-block;cursor: pointer;font-weight: bold;text-decoration: none;"></a>"; echo $very_code;?>">Click Here for Activation
                 </td>
               </tr>
             </table>
             <!-- /button -->
-            <p><b>Shipping Instruction</b></p>
-            <p>Thanks, <br>have a lovely day.</p>
+            <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;font-weight: normal;margin-bottom: 10px;"><b style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">Shipping Instruction</b></p>
+            <p style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;font-weight: normal;margin-bottom: 10px;">Thanks, <br style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">have a lovely day.</p>
 
           </td>
         </tr>
@@ -215,7 +215,7 @@ ol li {
       <!-- /content -->
       
     </td>
-    <td></td>
+    <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;"></td>
   </tr>
 </table>
 <!-- /body -->
@@ -239,10 +239,10 @@ ol li {
       </div>
       <!-- /content -->
       
-    </td>
-    <td></td>
-  </tr>
-</table>
+    
+    <td style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;"></td>
+  
+
 <!-- /footer -->
 
 </body>
