@@ -200,7 +200,7 @@ ol li {
             <table class="btn-primary" cellpadding="0" cellspacing="0" border="0" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;margin-bottom: 10px;width: auto !important;">
               <tr style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 1.6em;margin: 0;padding: 0;">
                 <td style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;Lucida Grande&quot;, sans-serif;font-size: 14px;line-height: 1.6em;margin: 0;padding: 0;background-color: #348eda;border-radius: 25px;text-align: center;vertical-align: top;">
-                  <a href="&lt;?php echo base_url();echo " verify style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 2;margin: 0;padding: 0;color: #ffffff;background-color: #348eda;border: solid 1px #348eda;border-radius: 25px;border-width: 10px 20px;display: inline-block;cursor: pointer;font-weight: bold;text-decoration: none;"></a>"; echo $very_code;?>">Click Here for Activation
+                  <a href="<?php echo base_url();echo "verify/" ; echo $very_code;?>" style="font-family: &quot;Helvetica Neue&quot;, &quot;Helvetica&quot;, Helvetica, Arial, sans-serif;font-size: 100%;line-height: 2;margin: 0;padding: 0;color: #ffffff;background-color: #348eda;border: solid 1px #348eda;border-radius: 25px;border-width: 10px 20px;display: inline-block;cursor: pointer;font-weight: bold;text-decoration: none;"></a>">Click Here for Activation
                 </td>
               </tr>
             </table>
