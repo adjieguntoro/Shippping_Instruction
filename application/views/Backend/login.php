@@ -2,7 +2,7 @@
 <html >
   <head>
     <meta charset="UTF-8">
-    <title>Login Form</title>
+    <title><?php echo $title; ?></title>
     
     		<link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
