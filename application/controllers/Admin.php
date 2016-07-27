@@ -5,9 +5,9 @@ class Admin extends CI_Controller {
 	
 
 	public function login(){
-		$data[title]="Admin";
+		//$data[title]="Admin";
 		$this->load->model('Model_backend');
-		$this->load->view('Backend/login',$data);
+		$this->load->view('Backend/login');
 		}
 
 	function act_login(){
